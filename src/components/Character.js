@@ -8,7 +8,7 @@ function Character({ name, imgUrl, birth, death, race, realm, spouse }) {
             <ul data-test="char-death">Date of Death: {death}</ul>
             <ul data-test="char-race">Race: {race}</ul>
             <ul data-test="char-realm">Realm: {realm}</ul>
-            <ul data-test="char-spouse">Spouse: {spouse}</ul>
+            <ul data-test="char-spouse">Pardner: {spouse}</ul>
             </li>
         </div>
     )
