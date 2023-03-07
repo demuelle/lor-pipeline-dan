@@ -126,7 +126,7 @@ describe('Character Component Renders Props', () => {
     it("Renders the Character's Spouse", () => {
         const charSpouse = findByTestAttr(wrapper, "char-spouse").text()
 
-        expect(charSpouse).toBe(`Spouse: ${samwiseGamgee.spouse}`)
+        expect(charSpouse).toBe(`Pardner: ${samwiseGamgee.spouse}`)
     })
 
 
